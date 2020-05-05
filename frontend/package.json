@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Oleg Agapov <oleg@starcoders.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "start": "npm run dev",
+    "build": "webpack --config build/webpack.conf.js",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.6.11",
+    "vue-cli-plugin-vuetify-preset-rally": "^1.0.3",
+    "vue-fullscreen": "^2.1.6",
+    "vue-router": "^3.1.6",
+    "vue2-touch-events": "^2.2.1",
+    "vuetify": "^2.2.26"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.1.45",
+    "@mdi/js": "^5.1.45",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify": "^2.2.26",
+    "vuetify-loader": "^1.4.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
