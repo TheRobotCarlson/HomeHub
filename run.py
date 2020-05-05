@@ -15,6 +15,10 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 def send_js(path):
     return send_from_directory('./dist/js', path)
 
+@app.route('/css/<path:path>')
+def send_js(path):
+    return send_from_directory('./dist/css', path)
+
 @app.route('/api/images/<path:path>')
 def send_image(path):
     photos_dir = "./dist/photos"
